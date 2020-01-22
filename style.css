@@ -52,17 +52,17 @@ nav a {
 
 .header-container {
     display: grid;
-    grid-row-gap: 10px;
+    grid-template-columns: 0.5fr 7fr 1fr;
     height: 55px;
     width: 100%;
     background-color: ;
     border-left: 2px;
     border-right: 2px;
-    grid-template-columns: 0.5fr 7fr 1fr;
     column-gap: 10px;
     align-content: center;
     justify-content: center;
     padding-bottom: 1px;
+    grid-row-gap: 10px;
     text-align: center;
     align-items: center;
 }
@@ -85,7 +85,7 @@ nav a {
 
 .search-button {
     color: white;
-    background-color: red;
+    background-color: #FB3B49;
     font-size: 10px;
     font-weight: 400;
     width: 100%;
@@ -97,9 +97,10 @@ nav a {
 
 .join-loggin-buttons {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 5px;
     height: 30px;
+    margin-left: 1rem;
 
 }
 
@@ -107,8 +108,11 @@ nav a {
     color: black;
     background-color: rgb(248, 241, 241);
     border-top: 1px solid black;
+    border-left: 1px solid black;
     font-weight: 400;
     font-size: 16px;
+    width: 120%;
+
 
 
 }
@@ -118,40 +122,60 @@ nav a {
     background-color: rgba(247, 241, 241, 0.1);
     font-weight: 400;
     font-size: 16px;
+    opacity: 0.6;
+    border: none;
+    width: 120%;
 }
 
 
 
 .section-1 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 50px;
     width: 100%;
-    padding-top: 2rem;
-    padding-bottom: 9rem;
+    justify-content: auto;
+    padding-top: 1rem;
+    padding-bottom: 11rem;
     text-align: center;
-    float: center;
     background-color: rgba(232, 217, 217, .3);
     border-top: lightgrey thin solid;
 
 }
 
+.wrapper-items {
 
-h1 {
-    align-items: center;
-    font-size: 4rem;
-    font-style: bold;
-    justify-content: center;
-    ;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 30px;
 
 }
 
-p {
-    font-size: 25px;
+
+.section-1>.wrapper-items>h1 {
+
+    font-size: 4rem;
+    font-style: bold;
+    justify-content: center;
+    text-align: center;
+
+
+
+
+}
+
+.section-1>.wrapper-items>p {
+    font-size: 1rem;
+    text-align: center;
     padding-bottom: 2em;
+    text-transform: full-width;
+
 }
 
 .see-plans-button {
 
     color: white;
-    background-color: red;
+    background-color: #FB3B49;
     font-size: 18px;
     font-weight: 800;
     width: 20%;
@@ -159,7 +183,8 @@ p {
     line-height: 2.5em;
     margin-right: 2em;
     font-size: 20px;
-    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2)
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+
 }
 
 
@@ -209,7 +234,8 @@ p {
     width: 100%;
     padding-top: 4rem;
     padding-bottom: 6rem;
-    text-align: center;
+    text-align: left;
+    justify-content: center;
 
 }
 
@@ -235,11 +261,17 @@ p {
     text-align: left;
     font-size: 12px;
     font-weight: 400;
-    word-wrap: keep-all;
     margin-right: 4rem;
     margin-left: 4rem;
 
 
+}
+
+.section-3>.flex-container>.section-3-items>i {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-right: 4rem;
+    margin-left: 4rem;
 }
 
 .create-org-button {
