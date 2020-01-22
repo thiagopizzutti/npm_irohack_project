@@ -9,6 +9,8 @@
         content="ie=edge">
     <link rel="stylesheet"
         href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
     <link rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,800&display=swap"
@@ -17,52 +19,55 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <div>
-            <img class="blackHeart"
-                src="./images/black-heart.png"
-                alt="black heart" />
-            <span class="heart"> Nifty Penguin Magic </span>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#"> npm Enterprise </a></li>
-                <li><a href="#"> Products </a></li>
-                <li><a href="#"> Solutions </a></li>
-                <li><a href="#"> Resources </a></li>
-                <li><a href="#"> Docs </a></li>
-                <li><a href="#"> Support </a></li>
-            </ul>
-        </nav>
-    </div>
     <header>
-        <div class="flex">
+        <!-- TOP NAVBAR -->
+        <div class="navbar">
             <div>
-                <img src="./images/npm-logo.png"
-                    alt="npm-logo"
-                    id="npmLogo">
+                <img class="blackHeart"
+                    src="./images/black-heart.png"
+                    alt="black heart" />
+                <span class="heart"> Nifty Penguin Magic </span>
             </div>
-            <div class="barAndButton">
-                <input class="searchBar"
-                    type="search"
-                    placeholder="Search packages">
+            <nav>
+                <ul>
+                    <li><a href="#"> npm Enterprise </a></li>
+                    <li><a href="#"> Products </a></li>
+                    <li><a href="#"> Solutions </a></li>
+                    <li><a href="#"> Resources </a></li>
+                    <li><a href="#"> Docs </a></li>
+                    <li><a href="#"> Support </a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- BOTTOM NAVBAR -->
+        <div class="header-container">
+            <div class="logo-image">
+                <img src="./images/images.png"
+                    width="70"
+                    height="30"
+                    alt="">
+            </div>
+            <div class="search-nav">
+                <!-- Search NavBar and Button -->
+                <!--Search Bar  -->
+                <button class="searchBar"
+                    type=""><i class="material-icons">search</i> Search packages </button>
+                <!-- Search Button -->
                 <input class=search-button
                     type="button"
                     value="Search">
             </div>
-            <div>
-                <span><a href="https://www.npmjs.com/"
-                        target="_blank"></a><input class="join-button"
-                        type="button"
-                        value="Join">
-                    </strong></span>
-                <span><input class="loggin-button"
-                        type="button"
-                        value="Login">
-                </span>
+            <div class="join-loggin-buttons">
+                <input class="join-button"
+                    type="button"
+                    value="Join"></input>
+                <input class="loggin-button"
+                    type="button"
+                    value="Login">
             </div>
         </div>
     </header>
+    <!-- SECTIONS START HERE -->
     <section class="section-1">
         <div class="wrapper-items">
             <h1><strong>Build amazing things</strong></h1>
