@@ -9,53 +9,72 @@
         content="ie=edge">
     <link rel="stylesheet"
         href="style.css">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800&display=swap"
+        rel="stylesheet">
     <title>Npm Prep IronHack Course</title>
 </head>
 
 <body>
-    <header>
+    <div class="navbar">
         <div>
-            <div>
-                <img class="blackHeart"
-                    src="./images/black-heart.png"
-                    alt="black heart" />
-                <span> Nifty Penguin Magic </span>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#"> npm Enterprise </a></li>
-                    <li><a href="#"> Products </a></li>
-                    <li><a href="#"> Solutions </a></li>
-                    <li><a href="#"> Resources </a></li>
-                    <li><a href="#"> Docs </a></li>
-                    <li><a href="#"> Support </a></li>
-                </ul>
-            </nav>
+            <img class="blackHeart"
+                src="./images/black-heart.png"
+                alt="black heart" />
+            <span class="heart"> Nifty Penguin Magic </span>
         </div>
-        <div>
-            <!-- add logo, search bar and buttons (or links and style them as buttons later)        -->
-            <img src="./images/npm-logo.png"
-                alt="npm logo image">
-            <div class="topnav">
-                <input type="text"
-                    placeholder="npm packages">
-                <input type="button"
-                    value="Search">
+        <nav>
+            <ul>
+                <li><a href="#"> npm Enterprise </a></li>
+                <li><a href="#"> Products </a></li>
+                <li><a href="#"> Solutions </a></li>
+                <li><a href="#"> Resources </a></li>
+                <li><a href="#"> Docs </a></li>
+                <li><a href="#"> Support </a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <div class="flex">
+            <div class="searchbardiv">
+                <div>
+                    <img src="./images/npm-logo.png"
+                        alt="npm-logo"
+                        id="npmLogo">
+                </div>
+                <div class="barAndButton">
+                    <input class="searchBar"
+                        type="search"
+                        placeholder="Search packages">
+                    <input class=search-button
+                        type="button"
+                        value="Search">
+                </div>
+                <span><a href="https://www.npmjs.com/"
+                        target="_blank"></a><input class="join-button"
+                        type="button"
+                        value="Join">
+                    </strong></span>
+                <span><input class="loggin-button"
+                        type="button"
+                        value="Login">
+                </span>
             </div>
-            <span><a href="#">Join</a> <a href="#">Log In</a>
-            </span>
         </div>
     </header>
-    <section id="first_section">
-        <div>
-            <h1>Build Amazing Things</h1>
+    <section class="container">
+        <div class="wrapper-items">
+            <h1><strong>Build amazing things</strong></h1>
             <p>Essential JavaScript development tools that help you go to market faster and build powerful applications
                 using modern open source code.</p>
-            <button type="submit">See Plans</button>
+            <input class=plans-button
+                type="button"
+                value="See plans">
             <span> <button type="submit">Join for free</button></span>
         </div>
     </section>
-    <section id="second section">
+    <!-- <section id="second section">
         <div>
             <img src="./images/triangle-hexagon.svg"
                 alt="triangle triangle-hexagon"
@@ -81,7 +100,7 @@
             <input type="button"
                 value="Create an Org">
         </div>
-    </section>
+    </section> -->
 </body>
 
 </html>

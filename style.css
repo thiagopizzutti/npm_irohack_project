@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+
+}
+
+nav {
+    width: 600px;
+}
+
+.heart {
+    letter-spacing: 0.015625em;
+    display: inline-flex;
+    color: #000000
+}
+
+nav ul {
+    padding-left: 0;
+    padding-right: 2rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 30px;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+
+}
+
+
+
+.npm-logo {
+    height: 45px;
+}
+
+#npmLogo {
+    width: 120px;
+    height: 45px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.searchbardiv {
+    color: black;
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+
+.searchBar {
+    display: inline-flex;
+    width: 100%;
+    border-width: 0.5px;
+    font-size: 20px;
+    text-align: left;
+    float: right;
+}
+
+.barAndButton {
+    display: inline-flex;
+    justify-content: center;
+    width: 85%;
+    height: 80%;
+    padding: 5px;
+    position: relative;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 6px;
+    margin-left: 16;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.search-button {
+
+    color: white;
+    background-color: red;
+    font-size: 22px;
+    width: 8%;
+    border-width: 2px;
+
+
+
+}
+
+.join-button {
+
+    color: darkslategray;
+    background-color: white;
+    justify-content: space-around;
+    width: 5%;
+    margin-left: 1px;
+    font-size: 22px;
+    padding: 1px 3px;
+    border-color: darkgray;
+    border-top: black solid;
+    border-width: 1.5px;
+}
+
+.loggin-button {
+
+    color: darkslategray;
+    background-color: white;
+    width: 5%;
+    margin-left: 1px;
+    font-size: 22px;
+    padding: 1px 3px;
+    border: white;
+}
+
+.container {
+    width: 100%;
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    float: center;
+
+}
+
+
+h1 {
+    align-items: center;
+    font-size: 4rem;
+    font-style: bold;
+    justify-content: center;
+    ;
+
+}
+
+.plans-button {
+
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    font-weight: 800;
+    width: 15%;
+    padding: 12px 12px;
+    border-style: black solid;
+    border-width: 1px;
+    line-height: 2em;
+    margin-right: 2em;
+    font-size: 20px;
+    outline: none;
+
+
+
+
+}
