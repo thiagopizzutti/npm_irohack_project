@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Poppins';
+    margin: 20px;
 }
 
 .navbar {
@@ -45,14 +46,17 @@ nav a {
 
 }
 
-
-
 .npm-logo {
     height: 45px;
 }
 
+.flex {
+    width: 100%;
+    display: flex;
+}
+
 #npmLogo {
-    width: 120px;
+
     height: 45px;
     padding-top: 8px;
     padding-bottom: 5px;
@@ -64,13 +68,13 @@ nav a {
 .searchbardiv {
     color: black;
     height: 50px;
-    width: 100%;
+
     float: left;
 }
 
 .searchBar {
     display: inline-flex;
-    width: 100%;
+
     border-width: 0.5px;
     font-size: 20px;
     text-align: left;
@@ -80,7 +84,7 @@ nav a {
 .barAndButton {
     display: inline-flex;
     justify-content: center;
-    width: 85%;
+
     height: 80%;
     padding: 5px;
     position: relative;
@@ -90,8 +94,6 @@ nav a {
     margin-left: 16;
     border: none;
     cursor: pointer;
-
-
 }
 
 .search-button {
@@ -99,11 +101,8 @@ nav a {
     color: white;
     background-color: red;
     font-size: 22px;
-    width: 8%;
+
     border-width: 2px;
-
-
-
 }
 
 .join-button {
@@ -111,7 +110,7 @@ nav a {
     color: darkslategray;
     background-color: white;
     justify-content: space-around;
-    width: 5%;
+
     margin-left: 1px;
     font-size: 22px;
     padding: 1px 3px;
@@ -124,21 +123,22 @@ nav a {
 
     color: darkslategray;
     background-color: white;
-    width: 5%;
+
     margin-left: 1px;
     font-size: 22px;
     padding: 1px 3px;
     border: white;
 }
 
-.container {
+.section-1 {
     width: 100%;
-    padding-top: 8rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    box-sizing: border-box;
+    padding-top: 2rem;
+    padding-bottom: 9rem;
     text-align: center;
     float: center;
+    background-color: rgba(232, 217, 217, .3);
+    margin-top: 8rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -152,22 +152,113 @@ h1 {
 
 }
 
-.plans-button {
+p {
+    font-size: 25px;
+    padding-bottom: 2em;
+}
+
+.see-plans-button {
 
     color: white;
     background-color: red;
     font-size: 18px;
     font-weight: 800;
-    width: 15%;
-    padding: 12px 12px;
+    width: 20%;
     border-style: black solid;
-    border-width: 1px;
-    line-height: 2em;
+    line-height: 2.5em;
     margin-right: 2em;
     font-size: 20px;
-    outline: none;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2)
+}
 
 
 
+.join-for-free-button {
+    color: black;
+    background: white;
+    font-size: 18px;
+    font-weight: 800;
+    width: 20%;
+    border-style: black solid;
+    line-height: 2.5em;
+    font-size: 20px;
 
+}
+
+.section-2 {
+    /* background-color: rgba(232, 217, 217, .3); */
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    float: center;
+    margin-bottom: 1rem;
+
+}
+
+.section-2>div>h3 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+
+
+}
+
+.section-2>.wrapper-items>p {
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10rem;
+    margin-left: 10rem;
+
+}
+
+.section-3 {
+    /* background-color: rgba(232, 217, 217, .3); */
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    text-align: center;
+
+}
+
+.flex-container {
+    display: flex;
+    padding-left: 1rem;
+    justify-content: center;
+    box-sizing: border-box;
+    word-wrap: keep-all;
+    margin-right: 4rem;
+    margin-left: 4rem;
+
+}
+
+.section-3>.flex-container>.section-3-items>h5 {
+    color: red;
+    text-align: left;
+    word-wrap: keep-all;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+.section-3>.flex-container>.section-3-items>p {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    word-wrap: keep-all;
+    margin-right: 4rem;
+    margin-left: 4rem;
+
+
+}
+
+.create-org-button {
+    background-color: black;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.2);
+    width: 20rem;
+    height: 3.5rem;
+    margin-top: 3rem;
 }
