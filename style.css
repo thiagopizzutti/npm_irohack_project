@@ -65,9 +65,13 @@ nav a {
     grid-row-gap: 10px;
     text-align: center;
     align-items: center;
+    place-self: center stretch;
+
 }
 
-.logo-image {}
+.logo-image {
+    place-self: center stretch;
+}
 
 .search-nav {
     display: grid;
@@ -101,7 +105,7 @@ nav a {
     column-gap: 5px;
     height: 30px;
     margin-left: 1rem;
-
+    place-self: center stretch;
 }
 
 .join-loggin-buttons>.join-button {
@@ -136,7 +140,7 @@ nav a {
     width: 100%;
     justify-content: auto;
     padding-top: 1rem;
-    padding-bottom: 11rem;
+    padding-bottom: 4em;
     text-align: center;
     background-color: rgba(232, 217, 217, .3);
     border-top: lightgrey thin solid;
@@ -158,10 +162,6 @@ nav a {
     font-style: bold;
     justify-content: center;
     text-align: center;
-
-
-
-
 }
 
 .section-1>.wrapper-items>p {
@@ -169,6 +169,9 @@ nav a {
     text-align: center;
     padding-bottom: 2em;
     text-transform: full-width;
+    padding-left: 30em;
+    padding-right: 30em;
+
 
 }
 
@@ -203,75 +206,75 @@ nav a {
 }
 
 .section-2 {
-    /* background-color: rgba(232, 217, 217, .3); */
+    display: flex;
+    position: column;
     width: 100%;
     padding-top: 4rem;
     padding-bottom: 6rem;
     text-align: center;
-    float: center;
-    margin-bottom: 1rem;
-
+    margin-bottom: 1em;
 }
 
-.section-2>div>h3 {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    font-size: 2rem;
-
-
+.section-2>div>img {
+    padding-bottom: 3em;
 }
 
-.section-2>.wrapper-items>p {
-    font-size: 16px;
-    text-align: center;
-    margin-right: 10rem;
-    margin-left: 10rem;
+.section-2-items {
+    padding-left: 18em;
+    padding-right: 18em;
+}
 
+.section-2>div>.section-2-items>h2 {
+
+    font-size: 2em;
+    background: rgb(245, 207, 111);
+    transform: skewX(9deg);
+    font-style: italic;
 }
 
 .section-3 {
-    /* background-color: rgba(232, 217, 217, .3); */
-    width: 100%;
-    padding-top: 4rem;
-    padding-bottom: 6rem;
-    text-align: left;
+    padding-bottom: 2rem;
     justify-content: center;
+
 
 }
 
-.flex-container {
+.section-3>.section-3-row {
     display: flex;
-    padding-left: 1rem;
-    justify-content: center;
-    box-sizing: border-box;
-    word-wrap: keep-all;
-    margin-right: 4rem;
-    margin-left: 4rem;
-
+    position: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
-.section-3>.flex-container>.section-3-items>h5 {
+.section-3>.section-3-row>.section-3-item-1 {
+    padding-right: 1.3rem;
+}
+
+.section-3>.section-3-row>.section-3-item-2 {
+    text-align: left;
+}
+
+.section-3>.section-3-row>.section-3-item-3 {
+
+    padding-left: 1.3rem;
+}
+
+.section-3>.section-3-row>.section-3-item-4 {
+    padding-right: 1.3rem;
+}
+
+h5 {
     color: red;
-    text-align: left;
-    margin-right: 4rem;
-    margin-left: 4rem;
-}
-
-.section-3>.flex-container>.section-3-items>p {
-    text-align: left;
-    font-size: 12px;
-    font-weight: 400;
-    margin-right: 4rem;
-    margin-left: 4rem;
-
 
 }
 
-.section-3>.flex-container>.section-3-items>i {
-    font-size: 3rem;
-    font-weight: 400;
-    margin-right: 4rem;
-    margin-left: 4rem;
+.section-3-button {
+    display: flex;
+    position: row;
+    justify-content: center;
+    padding-top: 2rem;
 }
 
 .create-org-button {
@@ -284,4 +287,5 @@ nav a {
     width: 20rem;
     height: 3.5rem;
     margin-top: 3rem;
+    text-align: center;
 }
